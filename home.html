@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="Css/styles.css">
+  <link rel="stylesheet" type="text/javascript" href="owl.js">
+
+  
+</head>
+<body>
+
+<!-- Header -->
+<div class="header-section">
+      <!----- start-header---->
+      <div id="home" class="header">
+        <div class="container">
+          <div class="top-header">
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" title="logo"></a>
+            </div>
+            <!----start-top-nav---->
+             <nav class="top-nav">
+              <ul class="top-nav">
+                <li class="active"><a href="#home" class="scroll"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">home </font></font></a></li>
+                <li class="page-scroll"><a href="#features" class="scroll"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATURES</font></font></a></li>
+                <li class="page-scroll"><a href="#gallery" class="scroll"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gallery</font></font></a></li>
+                <li class="page-scroll"><a href="#about" class="scroll"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">About </font></font></a></li>
+                <li class="contatct-active"><a href="#contact" class="scroll"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contact</font></font></a></li>
+              </ul>
+              <a href="#" id="pull"><img src="images/nav-icon.png" title="Menu"></a>
+            </nav>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+      <!----- //End-header---->
+      <!----- start-slider---->
+      <!----start-slider-script---->
+      <script src="js/responsiveslides.min.js"></script>
+       <script>
+          // You can also use "$(window).load(function() {"
+          $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+              auto: true,
+              pager: true,
+              nav: true,
+              speed: 500,
+              namespace: "callbacks",
+              before: function () {
+                $('.events').append("<li>before event fired.</li>");
+              },
+              after: function () {
+                $('.events').append("<li>after event fired.</li>");
+              }
+            });
+      
+          });
+        </script>
+      <!----//End-slider-script---->
+      <!-- Slideshow 4 -->
+          <div id="top" class="callbacks_container">
+            <ul class="rslides callbacks callbacks1" id="slider4">
+              <li id="callbacks1_s0" class="" style="display: block; transition: opacity 500ms ease-in-out 0s; float: none; position: absolute; opacity: 0; z-index: 1;">
+                <img src="images/slide.jpg" alt="">
+                <div class="caption text-center">
+                  <div class="slide-text-info">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducing </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Umbrella.</font></font></span></h1>
+                    <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Made to modify and use anywhere</font></font></h2>
+                    <div class="slide-text">
+                       <ul>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum </font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                      </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="big-btns">
+                      <a class="download" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">download</font></font></a>
+                      <a class="view" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vew gallery</font></font></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+               <li id="callbacks1_s2" style="display: block; transition: opacity 500ms ease-in-out 0s; float: none; position: absolute; opacity: 0; z-index: 1;" class="">
+                  <img src="images/slide.jpg" alt="">
+                <div class="caption text-center">
+                  <div class="slide-text-info">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducing </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Best app.</font></font></span></h1>
+                    <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Made to modify and use anywhere</font></font></h2>
+                    <div class="slide-text">
+                      <ul>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum </font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                      </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="big-btns">
+                      <a class="download" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Download</font></font></a>
+                      <a class="view" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">View gallery</font></font></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li id="callbacks1_s2" style="display: block; transition: opacity 500ms ease-in-out 0s; float: none; position: absolute; opacity: 0; z-index: 1;" class="">
+                <img src="images/slide.jpg" alt="">
+                <div class="caption text-center">
+                  <div class="slide-text-info">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducing </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Best app.</font></font></span></h1>
+                    <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Made to modify and use anywhere</font></font></h2>
+                    <div class="slide-text">
+                      <ul>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum </font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                      </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="big-btns">
+                      <a class="download" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Download</font></font></a>
+                      <a class="view" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">View gallery</font></font></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li id="callbacks1_s3" style="display: block; transition: opacity 500ms ease-in-out 0s; float: left; position: relative; opacity: 1; z-index: 2;" class="callbacks1_on">
+                 <img src="images/slide.jpg" alt="">
+                <div class="caption text-center">
+                  <div class="slide-text-info">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introducing </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Best app.</font></font></span></h1>
+                    <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Made to modify and use anywhere</font></font></h2>
+                    <div class="slide-text">
+                      <ul>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum </font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                        <li><span> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem Ipsum</font></font></li>
+                      </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="big-btns">
+                      <a class="download" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Download</font></font></a>
+                      <a class="view" href="#"><label> </label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">View gallery</font></font></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul><a href="#" class="callbacks_nav callbacks1_nav prev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">previous</font></font></a><a href="#" class="callbacks_nav callbacks1_nav next"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">next</font></font></a><ul class="callbacks_tabs callbacks1_tabs"><li class="callbacks1_s1"><a href="#" class="callbacks1_s1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a></li><li class="callbacks1_s2"><a href="#" class="callbacks1_s2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></li><li class="callbacks1_s3"><a href="#" class="callbacks1_s3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></a></li><li class="callbacks1_s4 callbacks_here"><a href="#" class="callbacks1_s4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4</font></font></a></li></ul>
+          </div>
+          <div class="clearfix"> </div>
+          <!-----divice----->
+            <div class="divice-demo">
+              <img src="images/divice-in-hand.png" title="demo">
+            </div>
+          <!---//divice----->
+      <!----- //End-slider---->
+      </div>
+  <!-- Header -->
+
+
+<!-- Features-->
+<div class="container" id="features">
+          <div class="section-head text-center">
+            <h3><span class="frist"> </span>AMAZING FEATURES<span class="second"> </span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <!----features-grids----->
+          <div class="features-grids">
+            <div class="col-md-4 features-grid">
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon">
+                  <span class="f-icon0"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon">
+                  <span class="f-icon1"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon">
+                  <span class="f-icon2"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              
+            </div><!---end-features-grid---->
+            <div class="col-md-4 features-grid">
+              <div class="big-divice">
+                <img src="images/device.png" title="features-demo">
+              </div>
+            </div><!---end-features-grid---->
+            <div class="col-md-4 features-grid">
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon1">
+                  <span class="f-icon3"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon1">
+                  <span class="f-icon4"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              <div class="features-grid-info">
+                <div class="col-md-2 features-icon1">
+                  <span class="f-icon5"> </span>
+                </div>
+                <div class="col-md-10 features-info">
+                  <h4>Lorem Ipsum</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+              
+            </div><!---end-features-grid---->
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+
+<!-- Features-->
+
+
+<!-- Gallery-->
+<div id="gallery" class="screen-shot-gallery">
+            <div class="container">
+              <div class="section-head text-center">
+                <h3><span class="frist"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Screenshots Gallery</font></font><span class="second"> </span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <!----sreen-gallery-cursual---->
+            <div class="sreen-gallery-cursual">
+               <!-- requried-jsfiles-for owl -->
+              <link href="css/owl.carousel.css" rel="stylesheet">
+                  <script src="js/owl.carousel.js"></script>
+                      <script>
+                  $(document).ready(function() {
+                    $("#owl-demo").owlCarousel({
+                      items : 3,
+                      lazyLoad : true,
+                      autoPlay : true,
+                    });
+                  });
+                  </script>
+               <!-- //requried-jsfiles-for owl -->
+               <!-- start content_slider -->
+               <div class="container">
+                   <div id="owl-demo" class="owl-carousel owl-theme" style="display: block; opacity: 1;">
+                          <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4560px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-1140px, 0px, 0px);"><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" src="images/mobile-images.png" style="display: block;">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" src="images/mobile-images.png" style="display: block;">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" src="images/mobile-images.png" style="display: block;">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" style="display: block;" src="images/mobile-images.png">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" style="display: block;" src="images/mobile-images.png">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" style="display: block;" src="images/mobile-images.png">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" style="display: block;" src="images/mobile-images.png">
+                          </div></div><div class="owl-item" style="width: 285px;"><div class="item">
+                            <img class="lazyOwl" alt="screen-name" style="display: block;" src="images/mobile-images.png">
+                          </div></div></div></div>   
+                          
+                      <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+            </div>
+            <!--//sreen-gallery-cursual---->
+          </div>
+        </div>
+<!-- Gallery-->
+
+<!-- Show Reel-->
+<div class="show-reel text-center">
+          <div class="container">
+            <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SHOW  </font></font><a href="#"><span> </span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> REEL</font></font></h5>
+       
+          </div>
+        </div>
+<!-- Show Reel-->
+
+
+<!-- About-->
+<div id="about" class="team">
+          <div class="container">
+            <div class="section-head text-center">
+              <h3><span class="frist"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">People Behind The App</font></font><span class="second"> </span></h3>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+            </div>
+          </div>
+          <!----team-members---->
+          <div class="team-members">
+            <div class="container">
+              <div class="col-md-3 team-member">
+                <div class="team-member-info">
+                  <img class="member-pic" src="images/team-member.png" title="name">
+                  <h5><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jonh Doe oh</font></font></a></h5>
+                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lead Designer</font></font></span>
+                  <label class="team-member-caption text-center">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p> 
+                  </label>
+                </div>
+              </div><!--- end-team-member --->
+              <div class="col-md-3 team-member">
+                <div class="team-member-info">
+                  <img class="member-pic" src="images/team-member.png" title="name">
+                  <h5><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Amanda Fenrnicas</font></font></a></h5>
+                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lead Developer</font></font></span>
+                  <label class="team-member-caption text-center">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+                  </label>
+                </div>
+              </div><!--- end-team-member --->
+              <div class="col-md-3 team-member">
+                <div class="team-member-info">
+                  <img class="member-pic" src="images/team-member.png" title="name">
+                  <h5><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hamberg Rodny</font></font></a></h5>
+                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Artist</font></font></span>
+                  <label class="team-member-caption text-center">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+                  </label>
+                </div>
+              </div><!--- end-team-member --->
+              <div class="col-md-3 team-member">
+                <div class="team-member-info">
+                  <img class="member-pic" src="images/team-member.png" title="name">
+                  <h5><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jessica Leonard</font></font></a></h5>
+                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Photographer</font></font></span>
+                  <label class="team-member-caption text-center">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+                  </label>
+                </div>
+              </div><!--- end-team-member --->
+              <div class="clearfix"> </div>
+            </div>
+              <div class="clearfix"> </div>
+          <!--//team-members---->
+          </div>
+        </div>
+<!-- About-->
+
+<!-- Testimonial-->
+<div class="test-monials text-center">
+            <div class="container">
+              <span><img src="images/icon1.png" title="quit"></span>
+            <script>
+                  $(document).ready(function() {
+                    $("#owl-demo1").owlCarousel({
+                      items : 1,
+                      lazyLoad : true,
+                      autoPlay : true,
+                      itemsDesktop : 2,
+                    });
+                  });
+             </script>
+            <div id="owl-demo1" class="owl-carousel owl-theme" style="display: block; opacity: 1;">
+                 <div class="owl-wrapper-outer"><div class="owl-wrapper" style="display: block; width: 5130px; left: 0px; transition: all 800ms ease 0s; transform: translate3d(-855px, 0px, 0px);"><div class="owl-item" style="width: 855px;"><div class="item">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">But I must explain to you how all this mistaken idea of &#8203;&#8203;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.happiness. </font></font></p>
+                  <div class="quit-people">
+                    <img src="images/quit-people.jpg" title="name">
+                    <h4><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Robert Leonarti</font></font></a></h4>
+                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CEO at cubed</font></font></span>
+                  </div>
+                 </div></div><div class="owl-item" style="width: 855px;"><div class="item">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+                  <div class="quit-people">
+                    <img src="images/quit-people.jpg" title="name">
+                    <h4><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Robert Leonarti</font></font></a></h4>
+                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CEO at cubed</font></font></span>
+                  </div>
+                 </div></div><div class="owl-item" style="width: 855px;"><div class="item">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">But I must explain to you how all this mistaken idea of &#8203;&#8203;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+                  <div class="quit-people">
+                    <img src="images/quit-people.jpg" title="name">
+                    <h4><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Robert Leonarti</font></font></a></h4>
+                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CEO at cubed</font></font></span>
+                  </div>
+                 </div></div></div></div>
+                  
+                  
+                 <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+                 </div>
+          </div>
+<!-- Testimonial-->
+
+<!-- Featured-In-->
+<div class="featured">
+          <div class="section-head text-center">
+            <h3><span class="frist"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">featured in</font></font><span class="second"> </span></h3>
+          </div>
+            <script>
+                  $(document).ready(function() {
+                    $("#owl-demo2").owlCarousel({
+                      items : 5,
+                      lazyLoad : true,
+                      autoPlay : true,
+                      pagination : false,
+                    });
+                  });
+             </script>
+            <div id="owl-demo2" class="owl-carousel owl-theme" style="display: block; opacity: 1;">
+                 <div class="owl-wrapper-outer"><div class="owl-wrapper" style="display: block; width: 6060px; left: 0px; transition: all 800ms ease 0s; transform: translate3d(-808px, 0px, 0px);"><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div><div class="owl-item" style="width: 202px;"><div class="item">
+                    <img src="images/brand-logo.png" title="behance">
+                 </div></div></div></div>
+     
+            </div>
+      </div>
+<!-- Featured-In-->
+
+
+<!-- Get-In-Touch -->
+<div id="contact" class="getintouch">
+        <div class="container">
+          <div class="section-head text-center">
+            <h3><span class="frist"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GET IN TOUCH</font></font><span class="second"> </span></h3>
+            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></font></p>
+          </div>
+          <div class="form-device">
+            <div class="col-md-9 getintouch-left">
+              <div class="contact-form col-md-10">
+                <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Say hello!</font></font></h3>
+                <form>
+                  <input type="text" placeholder="Name" required="">
+                  <input type="text" placeholder="Email" required="">
+                  <textarea placeholder="Message" required=""> </textarea>
+                  <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" value="Send message"></font></font>
+                </form>
+              </div>
+              <ul class="footer-social-icons col-md-2 text-center">
+                <li><a class="f-be" href="#"><span> </span></a></li>
+                <li><a class="f-tw" href="#"><span> </span></a></li>
+                <li><a class="f-db" href="#"><span> </span></a></li>
+                <li><a class="f-ti" href="#"><span> </span></a></li>
+                <li><a class="f-go" href="#"><span> </span></a></li>
+                <div class="clearfix"> </div>
+              </ul>
+            </div>
+            <div class="col-md-2 getintouch-left">
+              <div class="footer-divice">
+                <img src="images/device-1.png" title="getintouch">
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+<!-- Get-In-Touch -->
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+        <div class="container">
+          <div class="footer-grids">
+            <div class="col-md-3 footer-grid about-info">
+              <a href="#"><img src="images/logo.png" title="umbrella"></a>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></p>
+            </div>
+            <div class="col-md-3 footer-grid subscribe">
+              <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Subscribe </font></font></h3>
+              <form>
+                <input type="text" placeholder="" required="">
+                <input type="submit" value="">
+              </form>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">labor and in pain, and vitality, so that, with some great long-eusmod. </font></font></p>
+            </div>
+            <div class="col-md-3 footer-grid explore">
+              <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Explore</font></font></h3>
+              <ul class="col-md-6">
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">envato</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Themecurve</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kreativeshowcase</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freebiescurve</font></font></a></li>
+              </ul>
+              <ul class="col-md-6">
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">themeforest</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microsoft</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">google</font></font></a></li>
+                <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yahoo!</font></font></a></li>
+              </ul>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-3 footer-grid copy-right">
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Labor and in pain, and vitality, so that, with some great long-eusmod. </font><font style="vertical-align: inherit;">ut labore et dolore magna aliqua.</font></font></p>
+            </div>
+            <div class="clearfix"> </div>
+              <a href="#" id="toTop" style="display: block;"><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
+          </div>
+        </div>
+      </div>
+</footer>
+<!-- Footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#pull').click(function(){
+        $(this).parent().find("#myLinks").fadeToggle();
+    });
+});
+</script>
+
+
+</body>
+</html>
